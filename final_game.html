@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>世界遺産： ヌビア遺跡</title>
+  <link type="text/css" href="final.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="final_game.js"></script>
+  <script src="battle1.js"></script>
+  <style>canvas {border: 1px solid gray;}</style>
+</head>
+<body>
+
+<!-- ヘッダ（***この部分は班の全員で共通の設定をすること***） -->
+<header>
+  <h1>世界遺産： ヌビア遺跡</h1>
+  <p>所在国： エジプト<br>
+    制作： Team スフィンクス</p>
+</header>
+
+<!--ナビゲーション（***この部分は班の全員で共通の設定をすること***） -->
+<nav>
+  <div class="menu">
+  <ul>
+    <li>
+      <a href="http://web.sfc.keio.ac.jp/~t16654gn/info1/final.html">西村郷</a> <!-- 班長の「ログイン名」に変える、「班長」の部分は適切な名称に変える「～の物語」など -->
+    </li>
+    <li>
+      <a href="http://web.sfc.keio.ac.jp/~t16798km/info1/final.html">松尾和明</a> <!-- 班員１の「ログイン名」に変える、「班員１」の部分は適切な名称に変える「～の物語」など -->
+    </li>
+    <li>
+      <a href="http://web.sfc.keio.ac.jp/~s16826km/info1/final.html">松枝健太郎</a> <!-- 班員２の「ログイン名」に変える、「班員２」の部分は適切な名称に変える「～の物語」など -->
+    </li>
+
+    <!-- 班員３のいるところは、ここに３人目のリンクを追加する -->
+
+  </ul>
+  </div>
+</nav>
+
+<!-- メインコンテンツ -->
+<article id="content" class="articlecontent">
+
+<h2>決闘：スフィンクス</h2>
+<canvas id="screen"></canvas>
+<p id="info" style="display:none;">かいぶつの　スフィンクスが　しょうぶを　しかけてきた！</p>
+<input type="button" value="画面固定/解除" onclick="stopper();kotei();">
+
+<p>操作説明</p>
+<table>
+<tr>
+  <td>上下左右キー</td>
+  <td>選択カーソルの移動</td>
+</tr>
+<tr>
+  <td>dキー</td>
+  <td>決定/進行</td>
+</tr>
+<tr>
+  <td>aキー</td>
+  <td>選択肢画面へ戻る</td>
+</tr>
+</table>
+<p>バグの可能性が十分にあるので、おかしくなったらaキー。それでもダメならリロードしてください。</p>
+
+<h2>参考文献、URL</h2>
+<ul>
+  <li>鶸田 美帆. "古代エジプト　近代医療の起源｜ドキュメント鑑賞☆自然信仰を取り戻せ！". ドキュメント鑑賞☆自然信仰を取り戻せ！. 2009-3-9. （日本語）, （インターネット）, <a href ="http://poyoland.jugem.jp/?eid=336">http://poyoland.jugem.jp/?eid=336</a>, (2016-7-14)</li>
+  <li>"オイディプース"．Wikipedia．2016−3−9．（日本語），（インターネット），<a href="https://ja.wikipedia.org/wiki/オイディプース">https://ja.wikipedia.org/wiki/オイディプース</a>， (2016-7-14)</li>
+</ul>
+</article>
+<!-- 関連情報などをこの部分に入れておく -->
+<aside>
+  <section>
+
+    <h3>
+      Link
+    </h3>
+    <ul>
+      <li><a href="http://www.keio.ac.jp/" target="_blank">慶応大学</a></li>
+      <li><a href="final.html" target="_blank">ホーム（動く絵本）</a></li>
+      <li><a href="final_info.html" target="_blank">基本情報</a></li>
+    </ul>
+
+  </section>
+</aside>
+
+<!-- フッタ（***この部分は班の全員で共通の設定をすること***） -->
+<footer>
+  <p>Copyright&copy; 2016 Team スフィンクス</p>
+</footer>
+
+</body>
+</html>
