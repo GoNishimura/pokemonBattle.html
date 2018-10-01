@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>世界遺産： ヌビア遺跡</title>
+  <link type="text/css" href="final.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="final_info.js"></script>
+</head>
+<body>
+
+<!-- ヘッダ（***この部分は班の全員で共通の設定をすること***） -->
+<header>
+  <h1>世界遺産： ヌビア遺跡</h1>
+  <p>所在国： エジプト<br>
+    制作： Team スフィンクス</p>
+</header>
+
+<!--ナビゲーション（***この部分は班の全員で共通の設定をすること***） -->
+<nav>
+  <div class="menu">
+  <ul>
+    <li>
+      <a href="http://web.sfc.keio.ac.jp/~t16654gn/info1/final.html">西村郷</a> <!-- 班長の「ログイン名」に変える、「班長」の部分は適切な名称に変える「～の物語」など -->
+    </li>
+    <li>
+      <a href="http://web.sfc.keio.ac.jp/~t16798km/info1/final.html">松尾和明</a> <!-- 班員１の「ログイン名」に変える、「班員１」の部分は適切な名称に変える「～の物語」など -->
+    </li>
+    <li>
+      <a href="http://web.sfc.keio.ac.jp/~s16826km/info1/final.html">松枝健太郎</a> <!-- 班員２の「ログイン名」に変える、「班員２」の部分は適切な名称に変える「～の物語」など -->
+    </li>
+
+    <!-- 班員３のいるところは、ここに３人目のリンクを追加する -->
+
+  </ul>
+  </div>
+</nav>
+
+<!-- メインコンテンツ -->
+<article id="content" class="articlecontent">
+
+<h2>基本情報</h2>
+<p>アブ・シンベルからフィラエまでのヌビア遺跡群（Nubian Monuments from Abu Simbel to Philae）は、エジプト南部のナイル川流域にある、古代エジプト文明の遺跡。1960年代、エジプトでナイル川流域にアスワン・ハイ・ダムの建設計画が持ち上がったが、このダムが完成すると、ヌビア遺跡が水没する危機が懸念された。これを受けて、ユネスコが、ヌビア水没遺跡救済キャンペーンを開始。世界の60ヶ国の援助により、技術支援、考古学調査支援などが行われた。これがきっかけとなり、開発から歴史的価値のある遺跡、建築物、自然等を国際的な組織運営で守ろうという機運がうまれ、1972年11月16日、ユネスコのパリ本部で開催された第17回ユネスコ総会で、世界の文化遺産および自然遺産の保護に関する条約（世界遺産条約）が満場一致で成立。1975年、20ヶ国が条約締結し正式に発効した。ヌビア遺跡群も1979年、世界遺産（文化遺産）に登録された。（Wikipediaより引用）</p>
+<p>遺跡郡に登録されている遺跡（代表的なもの）</p>
+<ul>
+  <li>アブ・シンベル神殿　北緯22度20分12.42秒　東経31度37分31.56秒（Wikipediaより引用）</li>
+  <li>フィラエ神殿　北緯24度01分31秒　東経32度53分03秒（Wikipediaより引用）</li>
+  <li>カラブシャ神殿　北緯23度57分39秒　東経32度52分02秒（Wikipediaより引用）</li>
+</ul>
+<p>いずれもヌビア水没遺跡救済キャンペーンによって移設された遺跡である。</p>
+<p>
+  <input type="button" value="ヌビア水没遺跡救済キャンペーンとは？" onclick="changeImage6();changeConts6();eraser();">
+</p>
+<img id="story2" src="images/fpi6.png" style="display:none">
+<p id="bun2" style="display:none"></p>
+<p>
+  <input id="ch3" type="button" value="消す" style="display:none" onclick="erase();">
+</p>
+
+<img id="story" src="images/fpi1.png">
+<p id="bun">エジプト</p>
+<p>
+  <input id="ch1" type="button" value="戻る" style="display:" onclick="changeImage(-1);changeConts();changeChoice();">
+  <input id="ch2" type="button" value="進む" style="display:" onclick="changeImage(+1);changeConts();changeChoice();">
+</p>
+
+<h2>参考文献、URL</h2>
+<ul>
+  <li>"ヌビア遺跡".Wikipedia.2016-5-30.（日本語）,（インターネット）,<a href="https://ja.wikipedia.org/wiki/%E3%83%8C%E3%83%93%E3%82%A2%E9%81%BA%E8%B7%A1" target="_blank">https://ja.wikipedia.org/wiki/%E3%83%8C%E3%83%93%E3%82%A2%E9%81%BA%E8%B7%A1</a>,（参照：2016-7-7）</li>
+  <li>"アブ・シンベル神殿".Wikipedia.2016-5-30.（日本語）,（インターネット）,<a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%96%E3%83%BB%E3%82%B7%E3%83%B3%E3%83%99%E3%83%AB%E7%A5%9E%E6%AE%BF" target="_blank">https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%96%E3%83%BB%E3%82%B7%E3%83%B3%E3%83%99%E3%83%AB%E7%A5%9E%E6%AE%BF</a>,（参照：2016-7-7）</li>
+  <li>"フィラエ神殿".Wikipedia.2016-5-30.（日本語）,（インターネット）,<a href="https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%A9%E3%82%A8%E7%A5%9E%E6%AE%BF" target="_blank">https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%A9%E3%82%A8%E7%A5%9E%E6%AE%BF</a>,（参照：2016-7-7）</li>
+  <li>"Temple of Kalabsha".Wikipedia.2014-10-12.（English）,（インターネット）,<a href="https://en.wikipedia.org/wiki/Temple_of_Kalabsha" target="_blank">https://en.wikipedia.org/wiki/Temple_of_Kalabsha</a>,（参照：2016-7-7）</li>
+  <li>"ヌビア水没遺跡救済キャンペーン".世界遺産検定のお勉強ブログ.2011-6-10.（日本語）,（インターネット）,<a href="http://ameblo.jp/uetaken4wh/entry-10904705120.html" target="_blank">http://ameblo.jp/uetaken4wh/entry-10904705120.html</a>,（参照：2016-7-7）</li>
+  </ul>
+</article>
+<!-- 関連情報などをこの部分に入れておく -->
+<aside>
+  <section>
+
+    <h3>
+      Link
+    </h3>
+    <ul>
+      <li><a href="http://www.keio.ac.jp/" target="_blank">慶応大学</a></li>
+      <li><a href="final.html" target="_blank">ホームページ（動く絵本）</a></li>
+      <li><a href="final_game.html" target="_blank">ゲーム</a></li>
+    </ul>
+
+  </section>
+</aside>
+
+<!-- フッタ（***この部分は班の全員で共通の設定をすること***） -->
+<footer>
+  <p>Copyright&copy; 2016 Team スフィンクス</p>
+</footer>
+
+</body>
+</html>
